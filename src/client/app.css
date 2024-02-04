@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #d7c2ce,
+    #d3bad0,
+    #cbb4d4,
+    #beafda,
+    #ababe0,
+    #9bade4,
+    #8ab0e6,
+    #76b2e6,
+    #70b8e2,
+    #70bedd,
+    #76c2d6,
+    #7fc6d0
+  );
+}
