@@ -34,14 +34,10 @@ const serverConfig = {
   entry: './src/server.jsx',
   output: {
     path: path.resolve('dist'),
-    filename: 'server.cjs',
+    filename: 'api/index.js',
   },
   module: loader,
-  plugins: [
-    new webpack.EnvironmentPlugin({
-      PORT: 3001,
-    }),
-  ],
+  plugins: [],
   resolve,
 };
 
