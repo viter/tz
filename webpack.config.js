@@ -48,7 +48,7 @@ const clientConfig = {
   output: {
     path: path.resolve('dist'),
     publicPath: '/static',
-    filename: 'client.js',
+    filename: 'static/client.js',
   },
   module: loader,
   plugins: [
